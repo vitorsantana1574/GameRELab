@@ -11,5 +11,8 @@ O instalador `python scripts/install-tools.py <id> [...]` baixa os ZIPs do [mani
 | `assetripper`, `bepinex`, `ue4ss` | Ferramentas específicas para projetos Unity e Unreal compatíveis. |
 | `smithbox`, `me3`, `dsanimstudio`, `hkbeditor`, `witchybnd`, `darkscript3` | Ferramentas de dados, animações e eventos para Elden Ring. |
 | `github-cli`, `node24` | GitHub CLI e runtime Node.js portátil. |
+| `craft-anything` | Versão portátil publicada pelo [ArtCraft](https://www.getartcraft.com/apps/craft-anything). |
 
-O [relatório de testes](../reports/TESTES.md) diferencia arquivos presentes de ferramentas executadas. A versão exata de cada pacote fica no manifesto.
+REA 6.10.1 foi instalado localmente pelo pacote `rea-agents` com o Node portátil. O relatório registra o teste de inspeção de metadados de uma amostra .NET do próprio laboratório.
+
+O [relatório de testes](../reports/TESTES.md) diferencia arquivos presentes de ferramentas executadas. A versão exata de cada pacote ZIP fica no manifesto.

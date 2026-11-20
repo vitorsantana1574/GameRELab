@@ -15,6 +15,8 @@
 | Codex | Registro stdio confirmado no perfil isolado. |
 | Claude Code | O teste stdio do cliente exibiu `Connected` após o registro explícito no perfil isolado. A entrada automática de `.mcp.json` pede autorização no perfil normal. |
 | Fabric local | Gradle e Fabric Loom iniciaram. O acesso Java ao caminho canônico do JAR do Minecraft falhou no cache da sessão de Windows. |
-| GitHub Actions | A [primeira execução](https://github.com/vitorsantana1574/GameRELab/actions/runs/44827982666) passou na compilação Fabric no Linux e no teste do protocolo MCP no Windows. |
+| GitHub Actions | A [execução da matriz](https://github.com/vitorsantana1574/GameRELab/actions/runs/44828582563) passou na compilação Fabric no Windows e no Linux, no teste de carregamento do mod no cliente Linux e no teste do protocolo MCP no Windows. |
+| JAR Fabric | O artefato do CI foi baixado. A primeira cópia teve ZIP, classe de entrada e metadados do Fabric verificados. |
+| Smithbox | OpenGL e Vulkan falharam no ambiente local por acesso negado ao criar `%LOCALAPPDATA%\Smithbox\Configuration`. O lançador `scripts/smithbox.ps1` checa a pasta antes de abrir a interface. |
 | Baldur’s Gate 3 | A instalação base foi encontrada. O Toolkit e seu DLC de dados ainda aguardam instalação pela Steam. |
 | Testes dentro dos jogos | Comando `/gamerelab` em um mundo, conexão com outro cliente pelo Radmin e fluxo de modding de Elden Ring ainda precisam de validação. |

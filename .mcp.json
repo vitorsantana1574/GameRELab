@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "gamerelab": {
+      "type": "stdio",
+      "command": "python",
+      "args": ["scripts/lab-mcp.py"]
+    }
+  }
+}

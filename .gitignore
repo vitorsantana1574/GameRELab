@@ -1,0 +1,16 @@
+/tools/*
+!/tools/README.md
+/sandbox/*
+!/sandbox/README.md
+/backups/*
+!/backups/README.md
+/reports/local/
+/projects/*/local/
+.gradle/
+**/build/
+**/run/
+**/__pycache__/
+*.pyc
+.env
+.env.*
+*.log
